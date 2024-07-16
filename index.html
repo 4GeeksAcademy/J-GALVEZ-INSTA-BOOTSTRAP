@@ -16,18 +16,29 @@
         </a>
       </div>
     <!-- boton create -->
-      <div class="dropdown">
-        <button class="btn btn-success" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-          Create a new post
-        </button>
-        
-        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-          <li><a class="dropdown-item active" href="#">Create a new post</a></li>
-          <li><a class="dropdown-item" href="#">Comentario</a></li>
-         
-        </ul>
-      </div>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Create a new post
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Caption:</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- boton setting -->
       <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -210,7 +221,7 @@
       <img src="imagenes/turismo.jpg" class="card-img-top" alt="Dog Spark">
       <div class="card-body">
           <h5 class="card-title">238 Likes</h5>
-          <p class="card-text">Esto es el estilo de moto Turismo, ideal para viajar, y hacer turismo de forma cómoda</p>
+          <p class="card-text">Esto es el estilo de moto Turismo, ideal para viajar, y hacer turismo de</p>
       </div>
   </div>
 </div>
